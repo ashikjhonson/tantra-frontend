@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tantra-frontend/static/css/main.bef16e6b.css",
+    "main.js": "/tantra-frontend/static/js/main.2b4243f1.js",
+    "static/media/poster.png": "/tantra-frontend/static/media/poster.ea3646fae71a1f331443.png",
+    "static/media/Thanthra.png": "/tantra-frontend/static/media/Thanthra.d6a0a9dd432a44436b25.png",
+    "static/media/humanities.jpg": "/tantra-frontend/static/media/humanities.ddbc9e318615d213cb39.jpg",
+    "static/media/communication.jpg": "/tantra-frontend/static/media/communication.05abe94a848cddd5338f.jpg",
+    "static/media/games.jpg": "/tantra-frontend/static/media/games.611e71474c989edc1c39.jpg",
+    "static/media/civil.jpg": "/tantra-frontend/static/media/civil.f00951634a7b20617949.jpg",
+    "static/media/electrical.jpg": "/tantra-frontend/static/media/electrical.a46ee31491037c9c1bf8.jpg",
+    "static/media/mechanical.jpg": "/tantra-frontend/static/media/mechanical.477eaf983626037ba69f.jpg",
+    "static/media/artificial.jpg": "/tantra-frontend/static/media/artificial.af84e73b554c7a1b4015.jpg",
+    "static/media/404.svg": "/tantra-frontend/static/media/404.4bdda8dd24411dfcede99d5738335987.svg",
+    "static/media/computer.jpg": "/tantra-frontend/static/media/computer.bcf227f2d10957d8bf70.jpg",
+    "static/media/instrumentation.jpg": "/tantra-frontend/static/media/instrumentation.893b9a7a63e869cdedb9.jpg",
+    "index.html": "/tantra-frontend/index.html",
+    "static/media/DropDownIcon.svg": "/tantra-frontend/static/media/DropDownIcon.3ba1ddb4652873871680.svg",
+    "main.bef16e6b.css.map": "/tantra-frontend/static/css/main.bef16e6b.css.map",
+    "main.2b4243f1.js.map": "/tantra-frontend/static/js/main.2b4243f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bef16e6b.css",
+    "static/js/main.2b4243f1.js"
+  ]
+}
