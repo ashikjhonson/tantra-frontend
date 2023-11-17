@@ -7,8 +7,15 @@
   width: 100%;
   z-index: 10;
 }
-.Navbar-bg{
-  background-color: rgba(0, 0, 0, 0.85);
+.Navbar-bg {
+  background-color: rgba(0, 0, 0, 1);
+  /* background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.1)
+  ); */
+  background: linear-gradient(180deg, #080808 70%, rgba(8, 8, 8, 0));
+  /* box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5); */
   transition: 0.5s;
 }
 
@@ -69,15 +76,15 @@
     width: 100%;
     height: 100%;
     transform: translateX(-100%);
-    transition: all .45s;
+    transition: all 0.45s;
   }
 
   .Navbar > .nav-items > a::before {
-      background: transparent;
+    background: transparent;
   }
 
   .Navbar > .nav-items.open {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 
   .Navbar > .nav-toggle {
@@ -119,18 +126,16 @@
   }
 
   .nav-toggle.open > .bar {
-      transform: translateX(-40px);
-      background: transparent;
+    transform: translateX(-40px);
+    background: transparent;
   }
 
   .nav-toggle.open > .bar::before {
-      width: 32px;
-      transform: rotate(45deg) translate(26px, -26px);
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
   }
 
   .nav-toggle.open > .bar::after {
     transform: rotate(-45deg) translate(26px, 26px);
   }
-
-
 }
