@@ -2,6 +2,7 @@ import React from "react";
 //import IntroImage from '../../assets/intro.jpg';
 import PosterImage from "../../assets/poster.png";
 import ParticlesComponent from "../particles/ParticlesComponent";
+
 import "./Poster.css";
 
 function Poster() {
@@ -17,7 +18,7 @@ function Poster() {
       </div>
       <div className="content">
         <p className="tantra">TANTRA"23</p>
-        <p className="eventdate">DECEMBER 04, 2023</p>
+        {/* <p className="eventdate">DECEMBER 04, 2023</p> */}
       </div>
     </div>
   );
