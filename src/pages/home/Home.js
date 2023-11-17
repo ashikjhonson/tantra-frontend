@@ -5,6 +5,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Poster from "../../components/poster/Poster";
 import CountDown from "../../components/countDown/CountDown";
 import Marquee from "../../components/marquee/MarqueeComp";
+import Description from "../../components/description/Description";
 
 function Home() {
   useEffect(() => {
@@ -17,11 +18,14 @@ function Home() {
 
         <section id="home">
           <Poster />
-          <Marquee />
+          {/* <Marquee /> */}
         </section>
-        <section id="counter">
+        <section id="description">
+          <Description />
+        </section>
+        {/* <section id="counter">
           <CountDown />
-        </section>
+        </section> */}
         <section id="events">
           <Cards />
         </section>
