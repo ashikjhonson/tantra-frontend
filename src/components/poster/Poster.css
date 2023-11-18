@@ -57,6 +57,7 @@
 .hero .content .tantra {
   font-size: 140px;
   font-weight: 600;
+  transform: scale(0.5, 1.5);
   text-transform: uppercase;
   color: white;
   -webkit-text-stroke: 1px #fff;

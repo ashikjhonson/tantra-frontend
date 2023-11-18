@@ -10,8 +10,8 @@ const Description = () => {
         <li>Collaborate</li>
         <li>Catalyze.</li>
       </ul>
-      <MarqueeComp mdir="right" rot="-rotate-6" />
-      <MarqueeComp rot="rotate-6" />
+      <MarqueeComp mdir="left" />
+      {/* <MarqueeComp rot="rotate-6" /> */}
     </div>
   );
 };
