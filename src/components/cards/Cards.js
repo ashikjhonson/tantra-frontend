@@ -2,13 +2,13 @@ import React from "react";
 
 import "./Cards.css";
 import WorkCard from "./EventCard";
-import CardsData from "../../data/cardsData/CardsData";
+import CardsData from "../../data/cardsData/CardsMinimal";
 
 function Cards() {
   return (
-    <div className="event_cards">
-      <h1 className="event_heading">Events</h1>
-      <div className="event_container">
+    <div className=" mx-auto py-20">
+      <h1 className="text-center text-5xl">Events</h1>
+      <div className="flex flex-col mt-10 mx-10 px-40">
         {CardsData.map((value, index) => {
           return (
             <WorkCard

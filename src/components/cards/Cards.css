@@ -27,12 +27,12 @@
   padding-bottom: 5rem;
 }
 
-.event_card {
+/* .event_card {
   height: 100%;
   background-color: #1a1919;
   padding: 1.2rem 1rem;
   border-radius: 20px;
-}
+} */
 
 .event_card:hover {
   transform: translateY(-5px) scale(1.005) translateZ(0);
@@ -71,16 +71,7 @@
 
 @media screen and (max-width: 740px) {
   .event_container {
-    max-width: 90%;
     margin: auto;
-
-    grid-template-columns: 1fr;
-  }
-
-  .events_container {
-    max-width: 90%;
-    margin: auto;
-
     grid-template-columns: 1fr;
   }
 }

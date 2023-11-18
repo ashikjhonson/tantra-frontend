@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/Thanthra.png";
+import Logo from "../../assets/logo/logo.png";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import { useNavigate } from "react-router-dom";
@@ -25,7 +25,7 @@ function Navbar({ pg }) {
 
   return (
     <div className={color ? "Navbar Navbar-bg" : "Navbar"}>
-      <img src={Logo} className="nav-logo" alt="logo" />
+      <img src={Logo} className="nav-logo scale-150" alt="logo" />
       <div className={`nav-items ${isOpen && "open"}`}>
         {pg !== "ot" ? (
           <>

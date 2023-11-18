@@ -5,7 +5,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import SchoolIcon from "@mui/icons-material/School";
-// import ArrowDown from "../../assets/icons/Arrow.svg";
+
 
 import "./Footer.css";
 

@@ -13,7 +13,7 @@ function Events({ eventsData }) {
     <div className="event_cards text-[white] font-[Quicksand]">
       <Navbar pg="ot" />
       <h1 className="event_heading">Events Here</h1>
-      <div className="events_container">
+      <div className="event_container">
         {eventsData.map((value, index) => {
           return <Cards data={value} key={index} />;
         })}

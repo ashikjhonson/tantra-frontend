@@ -14,16 +14,16 @@
     rgba(255, 255, 255, 0),
     rgba(255, 255, 255, 0.1)
   ); */
-  background: linear-gradient(180deg, #080808 70%, rgba(8, 8, 8, 0));
+  /* background: linear-gradient(180deg, #080808 70%, rgba(8, 8, 8, 0)); */
   /* box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5); */
   transition: 0.5s;
 }
 
 .Navbar > .nav-logo {
-  height: 80px;
-  width: 100px;
+  height: 100px;
+  width: 120px;
   margin-left: 40px;
-  margin-top: 15px;
+  margin-top: 40px;
   color: #ffffff;
 }
 
