@@ -8,14 +8,14 @@ function EventCard(props) {
 
   return (
     <div className="event_card flex justify-between border-b border-gray-400 py-10">
-      <h2 className="font-mono font-bold text-gray-500 text-5xl w-96 whitespace-pre-wrap">
+      <h2 className="font-mono font-bold text-gray-400 text-5xl w-96 whitespace-pre-wrap">
         {props.title}
         <p className="font-sans font-light text-2xl">
           {props.title != "Common Events" ? "Engineering" : ""}
         </p>
       </h2>
-      <button className="btn" onClick={() => navigate(props.explore)}>
-        Explore
+      <button className="scale-50" onClick={() => navigate(props.explore)}>
+        <img src={Arrow} className="h-20 -rotate-90" />
       </button>
     </div>
   );
