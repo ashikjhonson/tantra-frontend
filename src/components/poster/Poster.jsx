@@ -17,20 +17,16 @@ function Poster() {
         <ParticlesComponent className="part" />
       </div>
       {/* <div id="tsparticles"></div> */}
-      <div className="fill intro_image">
+      <div className="fill ">
         <img src={PosterImage} alt="poster" className="intro_image" />
       </div>
       <div className="content">
-        {/* <p className="tantra relative z-1">TANTRA"23</p> */}
-
         <img
           src={Title}
           alt="title"
-          height={9000}
-          width={4000}
-          className="-mt-10"
+          className="p-16 pr-20 w-fit sm:w-full lg:w-screen"
         />
-        <p className="border-2 rounded-full w-fit mx-auto px-8 py-1 -mt-36">
+        <p className="border-2 rounded-full w-fit mx-auto px-8 py-1 -mt-36 hidden sm:block">
           DEC 04
         </p>
       </div>

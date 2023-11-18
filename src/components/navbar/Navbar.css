@@ -22,8 +22,8 @@
 .Navbar > .nav-logo {
   height: 100px;
   width: 120px;
-  margin-left: 40px;
-  margin-top: 40px;
+  /* margin-left: 40px; */
+  /*margin-top: 40px; */
   color: #ffffff;
 }
 

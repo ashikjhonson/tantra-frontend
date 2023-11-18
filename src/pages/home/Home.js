@@ -18,14 +18,10 @@ function Home() {
 
         <section id="home">
           <Poster />
-          {/* <Marquee /> */}
         </section>
         <section id="description">
           <Description />
         </section>
-        {/* <section id="counter">
-          <CountDown />
-        </section> */}
         <section id="events">
           <Cards />
         </section>

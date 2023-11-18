@@ -7,8 +7,10 @@ import CardsData from "../../data/cardsData/CardsMinimal";
 function Cards() {
   return (
     <div className=" mx-auto py-20">
-      <h1 className="text-center text-5xl">Events</h1>
-      <div className="flex flex-col mt-10 mx-10 px-40">
+      <h1 className="text-center font-mono font-bold text-gray-400 text-6xl sm:text-8xl">
+        Events
+      </h1>
+      <div className="flex flex-col mt-10 mx-10 sm:px-40">
         {CardsData.map((value, index) => {
           return (
             <WorkCard

@@ -8,13 +8,7 @@ function Cards(props) {
   let eventData = props.data;
   return (
     <div className="w-72 p-4 rounded-3xl overflow-hidden shadow-lg bg-red-700">
-      <div className="h-44 w-30 rounded-xl bg-red-200">
-        {/* <img
-          class="w-full"
-          src="/img/card-top.jpg"
-          alt="Sunset in the mountains"
-        /> */}
-      </div>
+      <div className="h-44 w-30 rounded-xl bg-red-200"></div>
       <div className="pt-5">
         <div className="font-bold font-sans text-3xl mb-2 h-16">
           {props.data.name}
