@@ -10,7 +10,7 @@ function Events({ eventsData }) {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <div className="event_cards text-[white] font-[Quicksand]">
+    <div className="event_cards text-[black] font-[Quicksand]">
       <Navbar pg="ot" />
       <h1 className="event_heading">Events Here</h1>
       <div className="event_container">

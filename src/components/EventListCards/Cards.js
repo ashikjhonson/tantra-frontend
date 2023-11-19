@@ -7,36 +7,34 @@ function Cards(props) {
   let navigate = useNavigate();
   let eventData = props.data;
   return (
-    <div className="w-72 p-4 rounded-3xl overflow-hidden shadow-lg bg-gray-200">
-      <div className="h-44 w-30 rounded-xl bg-red-200">
-      <p className="font-mono text-center">{props.data.event_type}</p>
-        <p className="font-mono text-center">
-          {props.data.fee !== "" ? `Reg Fee: ${props.data.fee}` : "‎ "}
-        </p>
-      </div>
+    <div className="w-72 p-4 rounded-3xl overflow-hidden shadow-lg bg-red-700">
+      <div className="h-44 w-30 rounded-xl bg-red-200"></div>
       <div className="pt-5">
-        <div className="font-bold font-sans text-3xl mb-2 h-16">
+        <div className="text-center font-bold font-mono text-3xl mb-2 h-16">
           {props.data.name}
         </div>
-       
+        <p className="font-mono">{props.data.event_type}</p>
+        <p className="font-mono">
+          {props.data.fee !== "" ? `Reg Fee: ${props.data.fee}` : "‎ "}
+        </p>
       </div>
       <div className="px-0 pt-4 pb-2">
         <a>{/* <ViewDetails data={eventData} /> */}</a>
         {eventData.reg ? (
-          <a className="">
+          <p className="text-center">
             <button
-              className="align bg-white text-black px-6 py-2 rounded-full"
+              className="bg-white text-black px-6 py-2 rounded-full"
               onClick={() => navigate("/register", { state: eventData })}
             >
               Register Event
             </button>
-          </a>
+          </p>
         ) : (
-          <a>
-            <button className="bg-white text-black px-6 py-2 rounded-full">
+          <p className="text-center">
+            <button className="bg-white font-mono text-black px-2 py-2 rounded-full">
               Register Event
             </button>
-          </a>
+          </p>
           // null
         )}
       </div>
