@@ -25,7 +25,12 @@ function Navbar({ pg }) {
 
   return (
     <div className={color ? "Navbar Navbar-bg" : "Navbar"}>
-      <img src={Logo} className="nav-logo scale-75" alt="logo" />
+      <Link smooth spy to="home" style={{ cursor: "pointer", height: 100, width: 100 }} onClick={() => {
+        navigate("/", { state: { load: true } });
+      }}>
+        <img src={Logo} className="nav-logo scale-75" alt="logo" />
+
+      </Link>
       <div className={`nav-items ${isOpen && "open"}`}>
         {pg !== "ot" ? (
           <>
@@ -49,7 +54,7 @@ function Navbar({ pg }) {
           </>
         ) : (
           <>
-            <Link
+            <Link smooth spy to="home" style={{ cursor: "pointer" }}
               onClick={() => {
                 navigate("/", { state: { load: true } });
               }}
