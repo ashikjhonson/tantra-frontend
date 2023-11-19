@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import Desktop from "../../assets/bg/des.png";
 import Mobile from "../../assets/bg/mob.png";
-// import Title from "../../assets/title.svg";
-// import TantraLogo from "../../assets/tantra.png";
 import ParticlesComponent from "../particles/ParticlesComponent";
 
 import "./Poster.css";
@@ -16,7 +14,8 @@ function Poster() {
   return (
     <div className="hero">
       {/* <div className='absolute top-[90px]'><ParticlesComponent className='part' /></div> */}
-      <div className="particle_div sm:hidden">
+      <div className="particle_div ">
+        {/**sm:hidden */}
         <ParticlesComponent className="part" />
       </div>
       {/* <div id="tsparticles"></div> */}
