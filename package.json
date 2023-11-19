@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "homepage": "http://techfest.vjec.ac.in",
+=======
+  "homepage": "http://ashikjhonson.github.io/tantra-frontend",
+>>>>>>> Stashed changes
   "name": "client",
   "version": "0.1.0",
   "private": true,
