@@ -1,7 +1,7 @@
 import React from "react";
 //import IntroImage from '../../assets/intro.jpg';
 import PosterImage from "../../assets/bg/des.png";
-import PosterImg from "../../assets/bg.png";
+import PosterImag from "../../assets/bg/mob.png";
 import Title from "../../assets/title.svg";
 import TantraLogo from "../../assets/tantra.png";
 // import PosterImg from "../../assets/poster.png";
@@ -13,22 +13,17 @@ import "./Poster.css";
 function Poster() {
   return (
     <div className="hero">
-      <div className="particle_div">
+      {/* <div className='absolute top-[90px]'><ParticlesComponent className='part' /></div> */}
+      <div className="particle_div sm:hidden">
         <ParticlesComponent className="part" />
       </div>
       {/* <div id="tsparticles"></div> */}
-      <div className="fill ">
+      <div className="fill">
         <img src={PosterImage} alt="poster" className="intro_image" />
       </div>
       <div className="content">
-        <img
-          src={Title}
-          alt="title"
-          className="p-16 pr-20 w-fit sm:w-full lg:w-screen"
-        />
-        <p className="border-2 rounded-full w-fit mx-auto px-8 py-1 -mt-36 hidden sm:block">
-          DEC 04
-        </p>
+        <p className="tantra">TANTRA"23</p>
+        <p className="eventdate">DECEMBER 04, 2023</p>
       </div>
     </div>
   );
