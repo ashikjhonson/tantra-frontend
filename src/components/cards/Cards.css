@@ -48,8 +48,8 @@
 .event_container {
   max-width: 1300px;
   margin-top: 88px;
-  margin-left: 190px;
-  margin-right: 230px;
+  margin-left: 13.7%;
+  /* margin-right: 13.7%; */
   display: grid;
   grid-template-columns: repeat(3, 350px);
   grid-gap: 60px;
