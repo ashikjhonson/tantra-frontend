@@ -8,6 +8,12 @@ function Cards(props) {
   let eventData = props.data;
   return (
     <div className="w-72 p-4 rounded-3xl overflow-hidden shadow-lg bg-gray-200">
+      {/*change angle of transition, 3d effect of turning the card here, in perspective */}
+      <div class="group h-96 w-50 [perspective:5000px]">
+      
+      {/*change speed of transition here, in duration */}
+      <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+      <div class="absolute inset-0">
       <div className="h-44 w-30 rounded-xl bg-white">
         
       </div>
@@ -39,6 +45,18 @@ function Cards(props) {
           </p>
           // null
         )}
+      </div>
+      </div>
+
+      {/*change color and transparency here, in bg */}
+      <div class="absolute inset-0 h-full w-full rounded-xl bg-black/100 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+        <div class="flex min-h-full flex-col items-center justify-center">
+          <h1 class="text-3xl font-bold">{props.data.name}</h1>
+          <p class="text-base">{props.data.description}</p>
+          <button class="mt-2 rounded-md bg-neutral-800 px-2 py-1 text-sm hover:bg-neutral-900">Register Event</button>
+        </div>
+      </div>
+      </div>
       </div>
     </div>
   );
