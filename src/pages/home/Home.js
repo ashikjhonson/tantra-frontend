@@ -4,6 +4,8 @@ import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 import Poster from "../../components/poster/Poster";
 import CountDown from "../../components/countDown/CountDown";
+import Marquee from "../../components/marquee/MarqueeComp";
+import Description from "../../components/description/Description";
 
 function Home() {
   useEffect(() => {
@@ -13,11 +15,12 @@ function Home() {
     <div>
       <div className="bg-black text-[white] font-[Quicksand] home">
         <Navbar />
+
         <section id="home">
           <Poster />
         </section>
-        <section id="counter">
-          <CountDown />
+        <section id="description">
+          <Description />
         </section>
         <section id="events">
           <Cards />

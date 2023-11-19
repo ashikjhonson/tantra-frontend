@@ -5,7 +5,6 @@ import EmailIcon from "@mui/icons-material/Email";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import SchoolIcon from "@mui/icons-material/School";
-import ArrowDown from "../../assets/icons/Arrow.svg";
 
 import "./Footer.css";
 
@@ -14,14 +13,13 @@ function Footer() {
     <div className="footer rounded-t-2xl sm:rounded-none">
       <div className="grid grid-cols-3 gap-6 sm:gap-20 sm:px-20 py-10 items-center font-mono">
         <div className="col-span-3 sm:col-span-1">
-          <h1 className="text-6xl font-bold flex sm:flex-col">
+          <h1 className="text-4xl sm:text-6xl relative font-bold flex sm:flex-col">
             Connect with us.{" "}
-            <span className="pt-14 pb-10 sm:pb-0 rotate-90 sm:rotate-0 sm:pt-6">
+            <span className="mr-10 mt-0 pt-5 sm:mr-10 sm:m-0 sm:pt-14  rotate-45 sm:rotate-0 ">
               <svg
                 width="50"
                 height="52"
                 viewBox="0 0 60 60"
-                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/Thanthra.png";
+import Logo from "../../assets/logo/logoimg.png";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import { useNavigate } from "react-router-dom";
@@ -25,7 +25,7 @@ function Navbar({ pg }) {
 
   return (
     <div className={color ? "Navbar Navbar-bg" : "Navbar"}>
-      <img src={Logo} className="nav-logo" alt="logo" />
+      <img src={Logo} className="nav-logo scale-75" alt="logo" />
       <div className={`nav-items ${isOpen && "open"}`}>
         {pg !== "ot" ? (
           <>
@@ -34,15 +34,15 @@ function Navbar({ pg }) {
                 Home
               </Link>
             )}
-            <Link smooth spy to="" style={{ cursor: "pointer" }}>
+            {/* <Link smooth spy to="" style={{ cursor: "pointer" }}>
               About
-            </Link>
+            </Link> */}
             <Link smooth spy to="events" style={{ cursor: "pointer" }}>
               Events
             </Link>
-            <Link smooth spy to="" style={{ cursor: "pointer" }}>
+            {/* <Link smooth spy to="" style={{ cursor: "pointer" }}>
               Gallery
-            </Link>
+            </Link> */}
             <Link smooth spy to="footer" style={{ cursor: "pointer" }}>
               Contact Us
             </Link>
