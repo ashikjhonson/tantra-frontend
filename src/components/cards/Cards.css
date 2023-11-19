@@ -47,7 +47,7 @@
 
 .event_container {
   max-width: 1300px;
-  margin-top: 88px;
+  margin-top: 5%;
   margin-left: 13.7%;
   /* margin-right: 13.7%; */
   display: grid;
@@ -82,7 +82,8 @@
 
 @media screen and (max-width: 740px) {
   .event_container {
-    margin: auto;
+    margin-top: 20%;
+    margin-left: 9%;
     grid-template-columns: 1fr;
   }
 }
