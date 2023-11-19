@@ -5,7 +5,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import SchoolIcon from "@mui/icons-material/School";
-
+import { Link } from "react-scroll";
 import "./Footer.css";
 
 function Footer() {
@@ -32,13 +32,19 @@ function Footer() {
         </div>
         <div className="col-span-1 sm:col-span-1 sm:mx-auto">
           <ul className="text-xl sm:pt-3">
-            <li className="py-2">Home</li>
-            <li className="py-2">Events</li>
-            <li className="py-2">Contacts</li>
+            <li className="py-2">
+              <Link smooth spy to="home" style={{ cursor: "pointer" }}>Home</Link>
+            </li>
+            <li className="py-2">
+              <Link smooth spy to="events" style={{ cursor: "pointer" }}>Events</Link>
+            </li>
+            <li className="py-2">
+              <Link smooth spy to="contacts" style={{ cursor: "pointer" }}>Contacts</Link>
+            </li>
           </ul>
         </div>
         <div className="col-span-2 sm:col-span-1 pl-20 sm:pl-0 sm:w-2/3 sm:mx-auto">
-          <p>Jyothi Nagar, Chemperi (P.O) Kannur 670632, Kerala, India</p>
+         <a href="https://maps.app.goo.gl/MTAuhiGcovmXgkTd7"><p>Jyothi Nagar, Chemperi (P.O) Kannur 670632, Kerala, India</p></a> 
         </div>
         <p className="absolute -rotate-90 text-md text-gray-900 font-sans right-0 hidden sm:block">
           tantra'23
@@ -46,16 +52,22 @@ function Footer() {
       </div>
 
       <div className="flex justify-between sm:px-20">
-        <div>tantra.22tech@gmail.com</div>
+        <div><a href="mailto:webteamtantra@gmail.com">webteamtantra@gmail.com</a></div>
         <ul className="flex gap-4 sm:gap-10 sm:pr-24">
           <li>
-            <InstagramIcon />
+            <a href="https://www.instagram.com/tantra._23/">
+              <InstagramIcon />
+            </a>
           </li>
           <li>
-            <LinkedInIcon />
+            <a href="https://www.linkedin.com/in/tantra-techfest-1a2381258/">
+              <LinkedInIcon />
+            </a>
           </li>
           <li>
-            <PhoneIcon />
+            <a href="tel:">
+              <PhoneIcon />
+            </a>
           </li>
         </ul>
       </div>
