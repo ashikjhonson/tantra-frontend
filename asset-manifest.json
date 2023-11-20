@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tantra-frontend/static/css/main.163c36a5.css",
-    "main.js": "/tantra-frontend/static/js/main.9ab62338.js",
+    "main.css": "/tantra-frontend/static/css/main.16b87987.css",
+    "main.js": "/tantra-frontend/static/js/main.613dec2f.js",
     "static/media/mob.png": "/tantra-frontend/static/media/mob.0dfac75f61885526dab4.png",
     "static/media/des.png": "/tantra-frontend/static/media/des.7ab5b7f2d452d1481b7b.png",
     "static/media/logoimg.png": "/tantra-frontend/static/media/logoimg.9895a5256d2ec28fc9aa.png",
@@ -18,11 +18,11 @@
     "index.html": "/tantra-frontend/index.html",
     "static/media/Arrow.svg": "/tantra-frontend/static/media/Arrow.c4fec83188357033d771afb83a037d40.svg",
     "static/media/DropDownIcon.svg": "/tantra-frontend/static/media/DropDownIcon.3ba1ddb4652873871680.svg",
-    "main.163c36a5.css.map": "/tantra-frontend/static/css/main.163c36a5.css.map",
-    "main.9ab62338.js.map": "/tantra-frontend/static/js/main.9ab62338.js.map"
+    "main.16b87987.css.map": "/tantra-frontend/static/css/main.16b87987.css.map",
+    "main.613dec2f.js.map": "/tantra-frontend/static/js/main.613dec2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.163c36a5.css",
-    "static/js/main.9ab62338.js"
+    "static/css/main.16b87987.css",
+    "static/js/main.613dec2f.js"
   ]
 }
