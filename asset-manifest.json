@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/tantra-frontend/static/css/main.16b87987.css",
-    "main.js": "/tantra-frontend/static/js/main.613dec2f.js",
+    "main.css": "/tantra-frontend/static/css/main.7d9ce6ec.css",
+    "main.js": "/tantra-frontend/static/js/main.4e44c54f.js",
+    "static/media/promo.mp4": "/tantra-frontend/static/media/promo.c51be902cedd399c42c6.mp4",
+    "static/media/intro.gif": "/tantra-frontend/static/media/intro.2b1367e64d0cadf32c80.gif",
     "static/media/mob.png": "/tantra-frontend/static/media/mob.0dfac75f61885526dab4.png",
     "static/media/des.png": "/tantra-frontend/static/media/des.7ab5b7f2d452d1481b7b.png",
+    "static/media/tantra.svg": "/tantra-frontend/static/media/tantra.2f0f3912352bff97459c89939503b883.svg",
     "static/media/logoimg.png": "/tantra-frontend/static/media/logoimg.9895a5256d2ec28fc9aa.png",
     "static/media/humanities.jpg": "/tantra-frontend/static/media/humanities.ddbc9e318615d213cb39.jpg",
     "static/media/communication.jpg": "/tantra-frontend/static/media/communication.05abe94a848cddd5338f.jpg",
@@ -18,11 +21,11 @@
     "index.html": "/tantra-frontend/index.html",
     "static/media/Arrow.svg": "/tantra-frontend/static/media/Arrow.c4fec83188357033d771afb83a037d40.svg",
     "static/media/DropDownIcon.svg": "/tantra-frontend/static/media/DropDownIcon.3ba1ddb4652873871680.svg",
-    "main.16b87987.css.map": "/tantra-frontend/static/css/main.16b87987.css.map",
-    "main.613dec2f.js.map": "/tantra-frontend/static/js/main.613dec2f.js.map"
+    "main.7d9ce6ec.css.map": "/tantra-frontend/static/css/main.7d9ce6ec.css.map",
+    "main.4e44c54f.js.map": "/tantra-frontend/static/js/main.4e44c54f.js.map"
   },
   "entrypoints": [
-    "static/css/main.16b87987.css",
-    "static/js/main.613dec2f.js"
+    "static/css/main.7d9ce6ec.css",
+    "static/js/main.4e44c54f.js"
   ]
 }
